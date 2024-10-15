@@ -6,7 +6,7 @@ def libros_interface():
     root.title("Gestión de Libros - Biblioteca José H. Porto")
     root.geometry("1366x798")
 
-    tk.Label(root, text="Gestión de Libros", font=("Arial", 16)).pack(pady=10)
+    tk.Label(root, text="Alta de Libros", font=("Arial", 16)).pack(pady=10)
 
     tk.Label(root, text="Título:").pack(pady=5)
     titulo_entry = tk.Entry(root)

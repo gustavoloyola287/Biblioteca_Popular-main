@@ -6,7 +6,7 @@ def prestamos_interface():
     root.title("Gestión de Préstamos - Biblioteca José H. Porto")
     root.geometry("1366x798")
 
-    tk.Label(root, text="Gestión de Préstamos", font=("Arial", 16)).pack(pady=10)
+    tk.Label(root, text="Préstamo de Libros", font=("Arial", 16)).pack(pady=10)
 
     tk.Label(root, text="Nombre:").pack(pady=5)
     nombre_entry = tk.Entry(root)
